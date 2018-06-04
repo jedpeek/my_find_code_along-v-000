@@ -10,7 +10,7 @@ i = 0
 end
 
 my_find(1..100){|x|
-  if x % 3 == 0 && x % 5 == 0
+  if (x % 3 == 0 && x % 5 == 0)
     puts "FizzBuzz: #{x}"
   end
 }
