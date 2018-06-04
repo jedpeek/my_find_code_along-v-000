@@ -9,7 +9,7 @@ i = 0
 
 end
 
-my_find(1..100){|x|
+my_find(1..100.to_a){|x|
   if (x % 3 == 0 && x % 5 == 0)
     puts "FizzBuzz: #{x}"
   end
