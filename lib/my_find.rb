@@ -8,7 +8,7 @@ while i < collection.size
 end
 end
 
-my_find(){|x|
+my_find(1..100){|x|
   if x % 3 == 0 && x % 5 == 0
     puts "FizzBuzz"
   end
